@@ -35,6 +35,6 @@ ttas - NUnit - create Test async method with AAA</Description>
     </Prerequisites>
     <Assets>
         <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
-        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="AAASnippeds\AAASnippet.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="AAASnippets\AAASnippet.pkgdef" />
     </Assets>
 </PackageManifest>
