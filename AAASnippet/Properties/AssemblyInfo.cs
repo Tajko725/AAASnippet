@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("AAASnipped")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A set of useful snippets to generate default  methods for xUnit (Test, Fact, theory, async), NUnit (Test, async) methods with AAA or just AAA (Arrange, Act, Assert) comments")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Tajko")]
 [assembly: AssemblyProduct("AAASnipped")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
