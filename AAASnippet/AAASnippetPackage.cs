@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using Task = System.Threading.Tasks.Task;
 
-namespace AAASnipped
+namespace AAASnippet
 {
     /// <summary>
     /// This is the class that implements the package exposed by this assembly.
@@ -24,11 +24,11 @@ namespace AAASnipped
     /// </para>
     /// </remarks>
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
-    [Guid(AAASnippedPackage.PackageGuidString)]
-    public sealed class AAASnippedPackage : AsyncPackage
+    [Guid(AAASnippetPackage.PackageGuidString)]
+    public sealed class AAASnippetPackage : AsyncPackage
     {
         /// <summary>
-        /// AAASnippedPackage GUID string.
+        /// AAASnippetPackage GUID string.
         /// </summary>
         public const string PackageGuidString = "b8a14434-d4a7-4998-b2a3-829cafd75af2";
         

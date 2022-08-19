@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="AAASnipped.ee1d5379-2318-4166-b9f2-c74de7284a71" Version="1.0" Language="en-US" Publisher="Tajko" />
-        <DisplayName>AAASnipped</DisplayName>
+        <Identity Id="AAASnippet.ee1d5379-2318-4166-b9f2-c74de7284a71" Version="1.0" Language="en-US" Publisher="Tajko" />
+        <DisplayName>AAASnippet</DisplayName>
         <Description xml:space="preserve">A set of useful snippets to generate default  methods for xUnit (Test, Fact, theory, async), NUnit (Test, async) methods with AAA or just AAA (Arrange, Act, Assert) comments
 
 Shortcuts:
@@ -20,7 +20,7 @@ tasd - xUnit - create Theory async method with DisplayName and AAA
 
 tta - NUnit - create Test method with AAA
 ttas - NUnit - create Test async method with AAA</Description>
-        <Tags>aaa, arrange, act, assert, xunit, nunit</Tags>
+        <Tags>AAA, Arrange, Act, Assert, xUnit, NUnit</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
