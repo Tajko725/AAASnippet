@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Arrange Act Asserta</Title>
+			<Author>Tajko</Author>
+			<Description>Add AAA (Arrange, Act, Assert)</Description>
+			<Shortcut>a</Shortcut>
+		</Header>
+		<Snippet>
+			<Code Language="CSharp">
+			<![CDATA[// Arrange
+			
+			
+			// Act
+			
+			
+			// Assert
+			
+			]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>xUnit Fact method with AAA (Arrange Act Assert)</Title>
+			<Author>Tajko</Author>
+			<Description>Create [Fact] method and add AAA (Arrange Act Assert)</Description>
+			<Shortcut>fa</Shortcut>
+		</Header>
+		<Snippet>
+			<Imports>
+				<Import>
+					<Namespace>Xunit</Namespace>
+				</Import>
+			</Imports>
+			<Declarations>
+				<Literal>
+					<ID>methodName</ID>
+					<ToolTip>Replace with the name of the test method</ToolTip>
+					<Default>MyTestMethod</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="CSharp">
+				<![CDATA[[Fact]
+			public void $methodName$()
+			{
+				// Arrange
+				
+				
+				// Act
+				
+				
+				// Assert
+				
+			}
+			]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>xUnit Fact method with DisplayName and AAA (Arrange Act Assert)</Title>
+			<Author>Tajko</Author>
+			<Description>Create [Fact] method with DisplayName and add AAA (Arrange Act Assert)</Description>
+			<Shortcut>fad</Shortcut>
+		</Header>
+		<Snippet>
+			<Imports>
+				<Import>
+					<Namespace>Xunit</Namespace>
+				</Import>
+			</Imports>
+			<Declarations>
+				<Literal>
+					<ID>methodName</ID>
+					<ToolTip>Replace with the name of the test method</ToolTip>
+					<Default>MyTestMethod</Default>
+				</Literal>
+				<Literal>
+					<ID>displayName</ID>
+					<ToolTip>Replace with the display name of the fact method</ToolTip>
+					<Default>MyTestMethod</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="CSharp">
+				<![CDATA[[Fact(DisplayName = "$displayName$")]
+			public void $methodName$()
+			{
+				// Arrange
+				
+				
+				// Act
+				
+				
+				// Assert
+				
+			}
+			]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>xUnit Theory method with AAA (Arrange Act Assert)</Title>
+			<Author>Tajko</Author>
+			<Description>Create [Theory] method and add AAA (Arrange Act Assert)</Description>
+			<Shortcut>ta</Shortcut>
+		</Header>
+		<Snippet>
+			<Imports>
+				<Import>
+					<Namespace>Xunit</Namespace>
+				</Import>
+			</Imports>
+			<Declarations>
+				<Literal>
+					<ID>methodName</ID>
+					<ToolTip>Replace with the name of the test method</ToolTip>
+					<Default>MyTestMethod</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="CSharp">
+				<![CDATA[[Theory]
+			public void $methodName$()
+			{
+				// Arrange
+				
+				
+				// Act
+				
+				
+				// Assert
+				
+			}
+			]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>xUnit Theory method with DisplayName and AAA (Arrange Act Assert)</Title>
+			<Author>Tajko</Author>
+			<Description>Create [Theory] method with DisplayName and add AAA (Arrange Act Assert)</Description>
+			<Shortcut>tad</Shortcut>
+		</Header>
+		<Snippet>
+			<Imports>
+				<Import>
+					<Namespace>Xunit</Namespace>
+				</Import>
+			</Imports>
+			<Declarations>
+				<Literal>
+					<ID>methodName</ID>
+					<ToolTip>Replace with the name of the test method</ToolTip>
+					<Default>MyTestMethod</Default>
+				</Literal>
+				<Literal>
+					<ID>displayName</ID>
+					<ToolTip>Replace with the display name of the theory method</ToolTip>
+					<Default>MyTestMethod</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="CSharp">
+				<![CDATA[[Theory(DisplayName = "$displayName$")]
+			public void $methodName$()
+			{
+				// Arrange
+				
+				
+				// Act
+				
+				
+				// Assert
+				
+			}
+			]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>NUnit Test method with AAA (Arrange Act Assert)</Title>
+			<Author>Tajko</Author>
+			<Description>Create [Test] method and add AAA (Arrange Act Assert)</Description>
+			<Shortcut>tta</Shortcut>
+		</Header>
+		<Snippet>
+			<Imports>
+				<Import>
+					<Namespace>NUnit.Framework</Namespace>
+				</Import>
+			</Imports>
+			<Declarations>
+				<Literal>
+					<ID>methodName</ID>
+					<ToolTip>Replace with the name of the test method</ToolTip>
+					<Default>MyTestMethod</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="CSharp">
+				<![CDATA[[Test]
+			public void $methodName$()
+			{
+				// Arrange
+				
+				
+				// Act
+				
+				
+				// Assert
+				
+			}
+			]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>xUnit Fact async method with AAA (Arrange Act Assert)</Title>
+			<Author>Tajko</Author>
+			<Description>Create [Fact] async method and add AAA (Arrange Act Assert)</Description>
+			<Shortcut>fas</Shortcut>
+		</Header>
+		<Snippet>
+			<Imports>
+				<Import>
+					<Namespace>Xunit</Namespace>
+				</Import>
+			</Imports>
+			<Declarations>
+				<Literal>
+					<ID>methodName</ID>
+					<ToolTip>Replace with the name of the test method</ToolTip>
+					<Default>MyTestMethod</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="CSharp">
+				<![CDATA[[Fact]
+			public async Task $methodName$()
+			{
+				// Arrange
+				
+				
+				// Act
+				
+				
+				// Assert
+				
+			}
+			]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>xUnit Fact async method with DisplayName and AAA (Arrange Act Assert)</Title>
+			<Author>Tajko</Author>
+			<Description>Create [Fact] async method with DisplayName and add AAA (Arrange Act Assert)</Description>
+			<Shortcut>fasd</Shortcut>
+		</Header>
+		<Snippet>
+			<Imports>
+				<Import>
+					<Namespace>Xunit</Namespace>
+				</Import>
+			</Imports>
+			<Declarations>
+				<Literal>
+					<ID>methodName</ID>
+					<ToolTip>Replace with the name of the test method</ToolTip>
+					<Default>MyTestMethod</Default>
+				</Literal>
+				<Literal>
+					<ID>displayName</ID>
+					<ToolTip>Replace with the display name of the fact method</ToolTip>
+					<Default>MyTestMethod</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="CSharp">
+				<![CDATA[[Fact(DisplayName = "$displayName$")]
+			public async Task $methodName$()
+			{
+				// Arrange
+				
+				
+				// Act
+				
+				
+				// Assert
+				
+			}
+			]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>xUnit Theory async method with AAA (Arrange Act Assert)</Title>
+			<Author>Tajko</Author>
+			<Description>Create [Theory] async method and add AAA (Arrange Act Assert)</Description>
+			<Shortcut>tas</Shortcut>
+		</Header>
+		<Snippet>
+			<Imports>
+				<Import>
+					<Namespace>Xunit</Namespace>
+				</Import>
+			</Imports>
+			<Declarations>
+				<Literal>
+					<ID>methodName</ID>
+					<ToolTip>Replace with the name of the test method</ToolTip>
+					<Default>MyTestMethod</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="CSharp">
+				<![CDATA[[Theory]
+			public async Task $methodName$()
+			{
+				// Arrange
+				
+				
+				// Act
+				
+				
+				// Assert
+				
+			}
+			]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>xUnit Theory async method with DisplayName and AAA (Arrange Act Assert)</Title>
+			<Author>Tajko</Author>
+			<Description>Create [Theory] async method with DisplayName and add AAA (Arrange Act Assert)</Description>
+			<Shortcut>tasd</Shortcut>
+		</Header>
+		<Snippet>
+			<Imports>
+				<Import>
+					<Namespace>Xunit</Namespace>
+				</Import>
+			</Imports>
+			<Declarations>
+				<Literal>
+					<ID>methodName</ID>
+					<ToolTip>Replace with the name of the test method</ToolTip>
+					<Default>MyTestMethod</Default>
+				</Literal>
+				<Literal>
+					<ID>displayName</ID>
+					<ToolTip>Replace with the display name of the theory method</ToolTip>
+					<Default>MyTestMethod</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="CSharp">
+				<![CDATA[[Theory(DisplayName = "$displayName$")]
+			public async Task $methodName$()
+			{
+				// Arrange
+				
+				
+				// Act
+				
+				
+				// Assert
+				
+			}
+			]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>	
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>NUnit Test async method with AAA (Arrange Act Assert)</Title>
+			<Author>Tajko</Author>
+			<Description>Create [Test] async method and add AAA (Arrange Act Assert)</Description>
+			<Shortcut>ttas</Shortcut>
+		</Header>
+		<Snippet>
+			<Imports>
+				<Import>
+					<Namespace>NUnit.Framework</Namespace>
+				</Import>
+			</Imports>
+			<Declarations>
+				<Literal>
+					<ID>methodName</ID>
+					<ToolTip>Replace with the name of the test method</ToolTip>
+					<Default>MyTestMethod</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="CSharp">
+				<![CDATA[[Test]
+			public async Task $methodName$()
+			{
+				// Arrange
+				
+				
+				// Act
+				
+				
+				// Assert
+				
+			}
+			]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
