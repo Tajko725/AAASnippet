@@ -218,7 +218,7 @@ public async Task MyTestMethod()
 
 ## Release Note
 
-- v.1.0.0.2
+- v.1.0.0.3
   - First release, it contains `a, fa, fad, fas, fasd, ta, tad, tas, tasd, tta, ttas` snippet.
 
 ## Support
