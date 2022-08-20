@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="ee1d5379-2318-4166-b9f2-c74de7284b71" Version="1.0.0.3" Language="en-US" Publisher="Tajko" />
+        <Identity Id="ee1d5379-2318-4166-b9f2-c74de7284b71" Version="1.0.0.4" Language="en-US" Publisher="Tajko" />
         <DisplayName>AAASnippet</DisplayName>
         <Description xml:space="preserve">A set of useful snippets to generate default  methods for xUnit (Test, Fact, theory, async), NUnit (Test, async) methods with AAA or just AAA (Arrange, Act, Assert) comments</Description>
-        <MoreInfo>https://github.com/Tajko725/AAASnippet</MoreInfo>
+        <MoreInfo>https://marketplace.visualstudio.com/items?itemName=AAASnippet.AAASnippet</MoreInfo>
         <Tags>AAA, Arrange, Act, Assert, xUnit, NUnit, Coding, Testing, Unit Testing, C#</Tags>
     </Metadata>
     <Installation>
