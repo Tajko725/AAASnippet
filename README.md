@@ -11,7 +11,7 @@ This will save you a lot of time in creating unit methods on xUnit / NUnit frame
 ## How to install
 
 1. Download "AAASnippet... .vsix" (Microsoft Visual Studio Extension) file from "Visual Studio Gallery" site.  
-URL: https://marketplace.visualstudio.com/items?itemName=AAASnippet.AAASnippet  or install from Extensions in Visual Studio
+URL: https://marketplace.visualstudio.com/items?itemName=Tajko.AAASnippet  or install from Extensions in Visual Studio
 2. Open (double click on Explorer) the downloaded "AAASnippet... .vsix" file.
 3. Then, "VSIX Installer" was launched. Please click "Install".
 
@@ -218,7 +218,7 @@ public async Task MyTestMethod()
 
 ## Release Note
 
-- v.1.0.0.4
+- v.1.0.0.5
   - First release, it contains `a, fa, fad, fas, fasd, ta, tad, tas, tasd, tta, ttas` snippet.
 
 ## Support
