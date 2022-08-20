@@ -11,7 +11,7 @@ This will save you a lot of time in creating unit methods on xUnit / NUnit frame
 ## How to install
 
 1. Download "AAASnippet... .vsix" (Microsoft Visual Studio Extension) file from "Visual Studio Gallery" site.  
-URL: ttps://marketplace.visualstudio.com/items?itemName=AAASnippet.AAASnippet
+URL: https://marketplace.visualstudio.com/items?itemName=AAASnippet.AAASnippet
 2. Open (double click on Explorer) the downloaded "AAASnippet... .vsix" file.
 3. Then, "VSIX Installer" was launched. Please click "Install".
 
