@@ -30,7 +30,7 @@ namespace AAASnippet
         /// <summary>
         /// AAASnippetPackage GUID string.
         /// </summary>
-        public const string PackageGuidString = "b8a14434-d4a7-4998-b2a3-829cafd75af2";
+        public const string PackageGuidString = "b8a14434-d4a7-4998-b2a3-426cafd99ba4";
         
         #region Package Members
 
