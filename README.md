@@ -218,6 +218,8 @@ public async Task MyTestMethod()
 
 ## Release Note
 
+- v.1.0.0.6
+  - Trying to fix a bug with `CoreEditor` in `Visual Studio 2022 Pro`. If someone had a problem then try manually installing the `Visual Studio extension development` extension, which includes CoreEditor
 - v.1.0.0.5
   - First release, it contains `a, fa, fad, fas, fasd, ta, tad, tas, tasd, tta, ttas` snippet.
 
